@@ -1,0 +1,528 @@
+{
+    "summary": {
+        "total_unique_tasks": 39,
+        "perfect_tasks": 11,
+        "hard_fail_tasks": 14,
+        "inconsistent_tasks": 14
+    },
+    "details": [
+        {
+            "task_id": "multi_apps/716a6079-22da-47f1-ba73-c9d58f986a38",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 4,
+                "fail_cnt": 1
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649"
+                ],
+                "failed_in": [
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/a74b607e-6bb5-4ea8-8a7c-5d97c7bbcd2a",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 3,
+                "fail_cnt": 2
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01101119"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/74d5859f-ed66-4d3e-aa0e-93d7a592ce41",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 2,
+                "fail_cnt": 3
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01100212"
+                ],
+                "failed_in": [
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/b5062e3e-641c-4e3a-907b-ac864d2e7652",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 2,
+                "fail_cnt": 3
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01101649"
+                ],
+                "failed_in": [
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/2373b66a-092d-44cb-bfd7-82e86e7a3b4d",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 4,
+                "fail_cnt": 1
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01101119"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/48d05431-6cd5-4e76-82eb-12b60d823f7d",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 4,
+                "fail_cnt": 1
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01100212"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_writer/0810415c-bde4-4443-9047-d5f70165a697",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 2,
+                "fail_cnt": 3
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01101119",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101649"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_calc/357ef137-7eeb-4c80-a3bb-0951f26a8aff",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 4,
+                "fail_cnt": 1
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01100212"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_calc/42e0a640-4f19-4b28-973d-729602b5a4a7",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 4,
+                "fail_cnt": 1
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01091616",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01100212"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_calc/abed40dc-063f-4598-8ba5-9fe749c0615d",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 3,
+                "fail_cnt": 2
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01101119"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_impress/5d901039-a89c-4bfb-967b-bf66f4df075e",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 1,
+                "fail_cnt": 4
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01101119"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "vs_code/0ed39f63-6049-43d4-ba4d-5fa2fe04a951",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 2,
+                "fail_cnt": 3
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119"
+                ]
+            }
+        },
+        {
+            "task_id": "thunderbird/15c3b339-88f7-4a86-ab16-e71c58dcb01e",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 1,
+                "fail_cnt": 4
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01101119"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "gimp/554785e9-4523-4e7a-b8e1-8016f565f56a",
+            "category": "inconsistent",
+            "stats": {
+                "success_cnt": 3,
+                "fail_cnt": 2
+            },
+            "distribution": {
+                "succeeded_in": [
+                    "results-01100212",
+                    "results-01101649",
+                    "results-01110024"
+                ],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01101119"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/d1acdb87-bb67-4f30-84aa-990e56a09c92",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/eb303e01-261e-4972-8c07-c9b4e7a4922a",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/5990457f-2adb-467b-a4af-5c857c92d762",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/46407397-a7d5-4c6b-92c6-dbe038b1457b",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/deec51c9-3b1e-4b9e-993c-4776f20e8bb2",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/897e3b53-5d4d-444b-85cb-2cdc8a97d903",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/8e116af7-7db7-4e35-a68b-b0939c066c78",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "multi_apps/4e9f0faf-2ecc-4ae8-a804-28c9a75d1ddc",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_writer/0a0faba3-5580-44df-965d-f562a99b291c",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "libreoffice_impress/550ce7e7-747b-495f-b122-acdc4d0b8e54",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "chrome/a96b564e-dbe9-42c3-9ccf-b4498073438a",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "chrome/35253b65-1c19-4304-8aa4-6884b8218fc0",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "os/5812b315-e7bd-4265-b51f-863c02174c28",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        },
+        {
+            "task_id": "vlc/8f080098-ddb1-424c-b438-4e96e5e4786e",
+            "category": "hard_fail",
+            "stats": {
+                "success_cnt": 0,
+                "fail_cnt": 5
+            },
+            "distribution": {
+                "succeeded_in": [],
+                "failed_in": [
+                    "results-01091616",
+                    "results-01100212",
+                    "results-01101119",
+                    "results-01101649",
+                    "results-01110024"
+                ]
+            }
+        }
+    ]
+}
