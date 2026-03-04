@@ -1,4 +1,9 @@
 ## OSWorld All in One
+### Proxy settings:
+- Replace **ALL** `huggingface.co` with `hf-mirror.com` in the `evaluation_examples`
+- Add `--proxy-server=http://[IP_ADDRESS]` in `desktop_env/controllers/setup.py`'s `_lauch_setup` method. Line 316-322.
+- Add `--proxy-server=http://[IP_ADDRESS]` in `desktop_env/evaluators/getters/chrome.py`'s every command with `--remote-debugging-port=1337`. This is for starting the chrome with proxy.
+### Run
 ```bash
 # Install Basic OSWorld
 git clone https://github.com/Mashiro-Ethereal/OSWorld-AllinOne
