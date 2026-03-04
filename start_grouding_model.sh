@@ -7,10 +7,10 @@ export CUDA_VISIBLE_DEVICES=2
 export HF_HUB_OFFLINE=1
 
 # 设置模型路径 (HuggingFace Hub ID 或 本地绝对路径)
-MODEL_PATH="zai-org/AutoGLM-Phone-9B"
+MODEL_PATH="ByteDance-Seed/UI-TARS-1.5-7B"
 
 # 设置服务别名 (Agent S3 调用时用这个名字)
-SERVED_NAME="AutoGLM-Phone-9B"
+SERVED_NAME="ByteDance-Seed/UI-TARS-1.5-7B"
 
 # 服务端口
 PORT=8000
@@ -32,5 +32,5 @@ echo "端口: ${PORT}"
 #     --trust-remote-code \
 #     --dtype auto \
 #     --port $PORT
-vllm serve "zai-org/AutoGLM-Phone-9B" --gpu-memory-utilization 0.4 --max-model-len 32768
+vllm serve "ByteDance-Seed/UI-TARS-1.5-7B" --gpu-memory-utilization 0.4 --max-model-len 32768
 # vllm serve "ByteDance-Seed/UI-TARS-1.5-7B"

@@ -1,0 +1,1 @@
+docker ps -a -q --filter "ancestor=happysixd/osworld-docker" | xargs -r docker rm -f
